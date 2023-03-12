@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 Display Flex</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="caixa">
+            caixa1
+        </div>
+        
+        <div class="caixa2">
+            caixa2
+        </div>
+
+        <div class="caixa3">
+            caixa3
+        </div>
+
+        
+    </div>
+</body>
+</html>
+
+<style>
+
+    .caixa{
+        width: 250px;
+        height: 250px;
+        background-color: #f85d5d;
+        border: 1px solid #000000;
+        
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        border: 5px solid #689048;
+    }
+
+    .caixa2{
+        width: 250px;
+        height: 250px;
+        background-color: #ff5900b6;
+        border: 1px solid #000000;
+    }
+
+    .caixa3{
+        width: 250px;
+        height: 250px;
+        background-color: #ff5900b6;
+        border: 1px solid #000000;
+    }
+
+
+</style>
+
+<!-- centralizar um item só usar display: flex e justify-content: center
+
+evenly - distribui o espaço entre eles da mesma forma
+
+between - fica nos extremos
+
+around - 
+
+
+layout fixo
+    px - pixel
+    pt - points
+
+layout fluido
+    % - porcentagem
+
+-->
